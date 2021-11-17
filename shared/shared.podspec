@@ -2,8 +2,8 @@ Pod::Spec.new do |spec|
     spec.name                     = 'shared'
     spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :git => "Not Published", :tag => "Cocoapods/#{spec.name}/#{spec.version}" }
-    spec.authors                  = ''
+    spec.source                   = { :git => "https://github.com/d1mster/shared.git", :tag => "Cocoapods/#{spec.name}/#{spec.version}" }
+    spec.authors                  = 'Dmitriy Pak'
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'
 
